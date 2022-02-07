@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+ background-image: url(/MaximRun.png);
+ margin:0;
+}
+.container {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-family: 'Secular One', sans-serif;
+    
+}
+
+
+.down {
+    border: 1px solid violet; 
+    border-radius: 60px;
+    padding: 6px 10px;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    cursor: pointer;
+    max-width: 100px;
+    }
+
+
+
+a {
+    text-decoration: none;
+}
