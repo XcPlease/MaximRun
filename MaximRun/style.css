@@ -16,7 +16,7 @@ body {
 .container {
     position: relative;
     top: 50%;
-    left: 50%;
+    left: 49.2%;
     transform: translate(-50%, -50%); 
     display: flexbox;
     justify-content: center;
@@ -25,20 +25,32 @@ body {
 
 h2 {
     font-family: 'Secular One', sans-serif;
+    color: white;
     
 }
 
 
 .down {
-    border: 1px solid violet; 
+    border: 0.5px solid violet; 
     border-radius: 60px;
     padding: 6px 10px;
     color: white;
     font-family: 'Work Sans', sans-serif;
     cursor: pointer;
     max-width: 100px;
+    margin: 6;
     }
 
+    .down1 {
+        border: 0.5px solid rgb(255, 17, 0); 
+        border-radius: 60px;
+        padding: 6px 10px;
+        color: white;
+        font-family: 'Work Sans', sans-serif;
+        cursor: pointer;
+        max-width: 100px;
+        margin: 6;
+        }
 
 
 a {
